@@ -228,15 +228,11 @@ main {
 	padding-top: 20px;
 }
 
-.profile img {
-	width: 100px;
-	border-radius: 50%;
-}
-/* .profile i {
+.profile i {
 	padding-top: 20px;
 	width: 150px;
 	font-size: 60px;
-} */
+}
 
 .profile header {
 	text-align: center;
