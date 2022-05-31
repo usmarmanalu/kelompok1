@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+* {
+	padding: 0%;
+	margin: 0%;
+	font-family: "Cairo";
+	text-decoration: none;
+}
+
+/* Header */
+.content {
+	max-width: 1250px;
+	margin: auto;
+	padding: 0px 20px;
+}
+
+/* NAVBAR  */
+.navbar {
+	position: fixed;
+	z-index: 5;
+	width: 100%;
+	padding: 25px 0;
+	transition: all 0.3s ease;
+	background: rgb(10, 10, 10);
+}
+.navbar.sticky {
+	padding: 10px 0;
+	background: #111;
+}
+.navbar .content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .menu-list {
+	display: inline-flex;
+}
+.navbar .logo a {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.menu-list li a {
+	color: #fff;
+}
+.menu-list li {
+	list-style: none;
+}
+.menu-list li a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 25px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.menu-list li a :hover {
+	color: cyan;
+	font-weight: 600;
+}
+.icon {
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	display: none;
+}
+.content .cancel-btn {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+@media screen and (max-width: 900px) {
+	body.disabledScroll {
+		overflow: hidden;
+	}
+
+	.icon {
+		display: block;
+	}
+	.icon .hide {
+		display: none;
+	}
+	.navbar .menu-list {
+		position: fixed;
+		top: 0;
+		left: -100%;
+		height: 100vh;
+		width: 100%;
+		max-width: 400px;
+		background: #222;
+		display: block;
+		padding: 40px 0;
+		text-align: center;
+		transition: all 0.3s ease;
+	}
+	.navbar .menu-list li {
+		margin-top: 45px;
+	}
+	.navbar .menu-list.active {
+		left: 0%;
+	}
+	.navbar .menu-list li a {
+		font-size: 23px;
+	}
+}
+
+.banner {
+	width: 100%;
+	max-height: 800px;
+	background-size: cover;
+	object-fit: cover;
+	object-position: center;
+}
+
+/* Main */
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+/* About */
+#about {
+	float: left;
+	border-radius: 5px;
+	width: 75%;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(76, 73, 73, 0.2);
+	border-radius: 5px;
+	padding: 30px;
+	margin-top: 20px;
+	text-align: center;
+}
+.card h3 {
+	padding: 30px;
+	color: rgb(8, 48, 48);
+}
+
+/* Plan */
+.card-plan {
+	background-color: rgb(209, 209, 209);
+}
+
+#plan {
+	padding-bottom: 20px;
+	padding-top: 30px;
+	float: left;
+	width: 75%;
+}
+.plan-row {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.plan-col {
+	background-color: rgb(137, 181, 181);
+	flex-basis: 30%;
+	text-align: center;
+	justify-content: space-around;
+}
+.plan-col h4 {
+	padding: 5px;
+	color: rgb(8, 48, 48);
+}
+.plan-col p {
+	padding: 3px;
+	font-size: smaller;
+	text-align: center;
+}
+
+.plan-col button {
+	margin: 0 10px 8% auto;
+	border: none;
+	border-radius: 5px;
+	width: 70px;
+	padding: 3px;
+	background-color: black;
+	justify-content: space-between;
+}
+
+.plan-col button:hover {
+	background-color: teal;
+}
+
+.plan-col button a {
+	color: white;
+}
+
+.plan-col ol {
+	text-align: left;
+	font-size: x-small;
+}
+
+/* Galery */
+#galery {
+	padding-bottom: 75px;
+	padding-top: 30px;
+	padding: 5px;
+	float: left;
+	width: 75%;
+}
+.galery-row {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.galery-col {
+	background-color: rgb(137, 181, 181);
+
+	flex-basis: 300%;
+	text-align: center;
+	word-spacing: 10px;
+}
+.galery-col img {
+	width: 100px;
+	background-size: cover;
+	border-radius: 5px;
+}
+
+/* Profile/aside */
+.profile h1 {
+	padding-top: 20px;
+}
+.profile i {
+	padding-top: 20px;
+	width: 150px;
+	font-size: 60px;
+}
+
+.profile header {
+	text-align: center;
+}
+
+aside section {
+	text-align: center;
+}
+aside section h3 {
+	font-size: 20px;
+}
+
+/* footer */
+#footer {
+	padding: 50px 0 30px;
+}
+hr {
+	width: 80%;
+	border: 1;
+	border-top: 1px solid black;
+}
+.footer-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.footer-left-col {
+	flex-basis: 150%;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-right: 10px;
+}
+.footer-info h4 {
+	color: black;
+}
+
+.footer-info small {
+	font-size: 13px;
+	color: #777;
+}
+
+.social-media a i {
+	color: rgb(10, 10, 10);
+	padding: 10px;
+	font-size: x-large;
+}
+
+footer p {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+	#about,
+	#plan,
+	#galery,
+	aside {
+		width: 100%;
+		padding: 0px;
+	}
+}

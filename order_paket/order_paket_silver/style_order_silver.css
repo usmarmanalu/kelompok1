@@ -1,0 +1,128 @@
+/* HEADER */
+/* NAVBAR */
+.nav {
+	display: inline-flex;
+	align-items: center;
+}
+
+.btn {
+	padding: 20px;
+}
+
+header button {
+	border: none;
+	background-color: white;
+}
+
+header button i {
+	color: black;
+	font-size: 15px;
+}
+
+header button:hover {
+	background-color: rgb(241, 241, 241);
+}
+
+header hr {
+	width: 100%;
+	border: 1;
+	border-top: 1px solid black;
+}
+
+/* MAIN */
+.shop {
+	padding-bottom: 30px;
+}
+
+#order {
+	background-color: black;
+	border: none;
+	padding: 8px;
+	border-radius: 10px;
+	padding-right: 20px;
+}
+
+#order a {
+	color: white;
+	text-decoration: none;
+}
+
+#order i {
+	font-size: 15px;
+}
+
+#order:hover {
+	background-color: grey;
+}
+
+#whatsapp {
+	background-color: green;
+	border: none;
+	padding: 8px;
+	border-radius: 10px;
+	padding-right: 20px;
+}
+
+#whatsapp a {
+	color: white;
+	text-decoration: none;
+}
+
+#whatsapp i {
+	font-size: 15px;
+}
+
+#whatsapp:hover {
+	background-color: grey;
+}
+
+/* FOOTER */
+hr {
+	width: 80%;
+	border: 1;
+	border-top: 1px solid black;
+}
+
+#footer {
+	padding: 50px 0 30px;
+}
+
+.footer-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.footer-left-col {
+	flex-basis: 150%;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-right: 10px;
+}
+
+.footer-info h4 {
+	color: black;
+}
+
+.footer-info small {
+	font-size: 13px;
+	color: #777;
+}
+
+.social-media a i {
+	color: rgb(10, 10, 10);
+	padding: 10px;
+	font-size: x-large;
+}
+
+footer p {
+	text-align: center;
+	padding-bottom: 20px;
+}
