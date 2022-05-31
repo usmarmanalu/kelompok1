@@ -227,11 +227,16 @@ main {
 .profile h1 {
 	padding-top: 20px;
 }
-.profile i {
+
+.profile img {
+	width: 100px;
+	border-radius: 50%;
+}
+/* .profile i {
 	padding-top: 20px;
 	width: 150px;
 	font-size: 60px;
-}
+} */
 
 .profile header {
 	text-align: center;
