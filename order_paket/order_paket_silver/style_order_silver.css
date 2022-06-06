@@ -111,7 +111,7 @@ textarea {
 	font: inherit;
 }
 
-.submit {
+.submit-batal {
 	margin: 20px 0 0 0;
 	padding: 7px;
 	width: 60px;
@@ -121,7 +121,16 @@ textarea {
 	cursor: default;
 	color: white;
 }
-.submit:hover {
+
+#batal {
+	background-color: red;
+}
+
+#batal:hover {
+	background-color: red;
+}
+
+.submit-batal {
 	background-color: grey;
 }
 
