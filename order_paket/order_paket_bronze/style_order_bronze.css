@@ -112,10 +112,8 @@ textarea {
 }
 
 .submit-batal {
-	margin: 20px 0 0 0;
 	padding: 7px;
 	width: 60px;
-	background-color: teal;
 	border: none;
 	border-radius: 10px;
 	cursor: default;
@@ -123,15 +121,19 @@ textarea {
 	margin: 0 20px 0 auto;
 }
 
+#submit {
+	background-color: teal;
+}
+
+#submit:hover {
+	background-color: gray;
+}
+
 #batal {
 	background-color: red;
 }
 
 #batal:hover {
-	background-color: grey;
-}
-
-.submit-batal:hover {
 	background-color: grey;
 }
 
