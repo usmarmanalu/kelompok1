@@ -76,6 +76,55 @@ header hr {
 	background-color: grey;
 }
 
+#contact {
+	text-align: center;
+	padding-right: 190px;
+	padding-bottom: 10px;
+}
+
+/* FORM */
+.container-form {
+	text-align: center;
+}
+
+.input-group {
+	display: inherit;
+}
+
+.input {
+	padding: 6px 60px;
+	border: 1px solid;
+	border-radius: 4px;
+	font: inherit;
+	color: black;
+	outline: none solid black;
+	margin-bottom: 15px;
+}
+
+.input-label {
+	border-radius: 5px;
+	display: inherit;
+	padding-bottom: 5px;
+}
+
+textarea {
+	font: inherit;
+}
+
+.submit {
+	margin: 20px 0 0 0;
+	padding: 7px;
+	width: 60px;
+	background-color: teal;
+	border: none;
+	border-radius: 10px;
+	cursor: default;
+	color: white;
+}
+.submit:hover {
+	background-color: grey;
+}
+
 /* FOOTER */
 hr {
 	width: 80%;
