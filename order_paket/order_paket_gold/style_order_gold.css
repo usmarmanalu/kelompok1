@@ -2,6 +2,7 @@
 
 /* HEADER */
 /* NAVBAR */
+
 .nav {
 	display: inline-flex;
 	align-items: center;
@@ -92,6 +93,7 @@ header hr {
 }
 
 /* FORM */
+
 .container-form {
 	text-align: center;
 }
@@ -147,6 +149,7 @@ textarea {
 }
 
 /* FOOTER */
+
 hr {
 	width: 80%;
 	border: 1;

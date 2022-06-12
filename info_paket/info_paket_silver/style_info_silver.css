@@ -1,5 +1,6 @@
 /* HEADER */
 /* NAVBAR */
+
 .nav {
 	display: inline-flex;
 	align-items: center;
@@ -30,6 +31,7 @@ header hr {
 }
 
 /* MAIN */
+
 .sub-judul {
 	text-align: center;
 	letter-spacing: 4px;
@@ -68,6 +70,7 @@ main hr {
 }
 
 /* FOOTER */
+
 footer hr {
 	width: 80%;
 	border: 1;
