@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+* {
+	font-family: "Cairo";
+}
+
 /* HEADER */
 /* NAVBAR */
 
@@ -40,7 +46,6 @@ header hr {
 .container {
 	margin: auto;
 	max-width: 1000px;
-
 	border-radius: 15px;
 }
 

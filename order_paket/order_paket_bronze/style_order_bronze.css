@@ -1,4 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cairo&family=Caveat:wght@600&family=Great+Vibes&family=Satisfy&display=swap");
+
+* {
+	font-family: "Cairo";
+}
 
 /* HEADER */
 /* NAVBAR */
