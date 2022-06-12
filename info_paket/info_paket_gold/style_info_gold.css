@@ -32,6 +32,7 @@ header hr {
 /* MAIN */
 .sub-judul {
 	text-align: center;
+	letter-spacing: 4px;
 }
 
 .container {
@@ -60,9 +61,10 @@ header hr {
 }
 
 main hr {
-	border-top: 1px solid black;
+	border-top: 1px solid;
 	border: solid;
 	border-radius: 5px;
+	color: rgb(245, 141, 66);
 }
 
 /* FOOTER */
