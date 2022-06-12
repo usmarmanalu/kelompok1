@@ -18,57 +18,70 @@
 	position: fixed;
 	z-index: 5;
 	width: 100%;
-	padding: 25px 0;
+	padding: 18px 0;
 	transition: all 0.3s ease;
-	background: rgb(10, 10, 10);
+	background: rgb(46, 139, 87);
 }
+
 .navbar.sticky {
 	padding: 10px 0;
-	background: #111;
+	background: rgb(46, 139, 87);
 }
+
 .navbar .content {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
+
 .navbar .menu-list {
 	display: inline-flex;
 }
+
 .navbar .logo a {
-	color: #fff;
+	color: rgb(25, 25, 112);
 	font-size: 20px;
 	font-weight: 600;
 	text-decoration: none;
+	letter-spacing: 1px;
 }
-.menu-list li a {
-	color: #fff;
+
+.navbar .logo :hover {
+	color: white;
+	font-weight: 400;
 }
+
 .menu-list li {
 	list-style: none;
 }
+
 .menu-list li a {
-	color: #fff;
-	font-size: 14px;
-	font-weight: 500;
+	color: rgb(240, 248, 255);
+	font-size: 15px;
+	font-weight: 400;
 	margin-left: 25px;
 	text-decoration: none;
 	transition: all 0.3s ease;
 }
-.menu-list li a :hover {
-	color: cyan;
+
+.menu-list li :hover {
+	color: white;
 	font-weight: 600;
 }
+
 .icon {
 	color: #fff;
 	font-size: 20px;
 	cursor: pointer;
 	display: none;
 }
+
 .content .cancel-btn {
 	position: absolute;
 	top: 20px;
 	right: 30px;
 }
+
 @media screen and (max-width: 900px) {
 	body.disabledScroll {
 		overflow: hidden;
@@ -87,7 +100,7 @@
 		height: 100vh;
 		width: 100%;
 		max-width: 400px;
-		background: #222;
+		background: rgb(46, 139, 87);
 		display: block;
 		padding: 40px 0;
 		text-align: center;
@@ -100,7 +113,7 @@
 		left: 0%;
 	}
 	.navbar .menu-list li a {
-		font-size: 23px;
+		font-size: 14px;
 	}
 }
 
@@ -124,6 +137,7 @@ main {
 	border-radius: 5px;
 	width: 75%;
 }
+
 .card {
 	box-shadow: 0 4px 8px 0 rgba(76, 73, 73, 0.2);
 	border-radius: 5px;
@@ -131,6 +145,7 @@ main {
 	margin-top: 20px;
 	text-align: center;
 }
+
 .card h3 {
 	padding: 30px;
 	color: rgb(8, 48, 48);
@@ -147,6 +162,7 @@ main {
 	float: left;
 	width: 75%;
 }
+
 .plan-row {
 	width: 100%;
 	margin: auto;
@@ -155,16 +171,19 @@ main {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
 .plan-col {
 	background-color: rgb(137, 181, 181);
 	flex-basis: 30%;
 	text-align: center;
 	justify-content: space-around;
 }
+
 .plan-col h4 {
 	padding: 5px;
 	color: rgb(8, 48, 48);
 }
+
 .plan-col p {
 	padding: 3px;
 	font-size: smaller;
@@ -202,6 +221,7 @@ main {
 	float: left;
 	width: 75%;
 }
+
 .galery-row {
 	width: 100%;
 	margin: auto;
@@ -210,15 +230,16 @@ main {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
 .galery-col {
 	background-color: rgb(137, 181, 181);
-
-	flex-basis: 300%;
+	flex-basis: 150%;
 	text-align: center;
 	word-spacing: 10px;
 }
+
 .galery-col img {
-	width: 100px;
+	width: 130px;
 	background-size: cover;
 	border-radius: 5px;
 }
@@ -241,6 +262,7 @@ main {
 aside section {
 	text-align: center;
 }
+
 aside section h3 {
 	font-size: 20px;
 }
@@ -249,17 +271,20 @@ aside section h3 {
 #footer {
 	padding: 50px 0 30px;
 }
+
 hr {
 	width: 80%;
 	border: 1;
 	border-top: 1px solid black;
 }
+
 .footer-row {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
 .footer-left-col {
 	flex-basis: 150%;
 	margin-top: 50px;
@@ -272,6 +297,7 @@ hr {
 	flex-wrap: wrap;
 	padding-right: 10px;
 }
+
 .footer-info h4 {
 	color: black;
 }
