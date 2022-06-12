@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cairo&family=Caveat:wght@600&family=Great+Vibes&family=Satisfy&display=swap");
+
 * {
 	padding: 0%;
 	margin: 0%;
@@ -40,10 +42,11 @@
 
 .navbar .logo a {
 	color: rgb(184, 235, 252);
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 400;
 	text-decoration: none;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
+	font-family: "Great Vibes";
 }
 
 .navbar .logo :hover {
