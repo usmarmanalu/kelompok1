@@ -43,10 +43,10 @@ header hr {
 	letter-spacing: 4px;
 }
 
-.container {
+.container-facility {
 	margin: auto;
 	max-width: 1000px;
-
+	background-color: rgb(117, 145, 158);
 	border-radius: 15px;
 }
 
@@ -72,7 +72,7 @@ main hr {
 	border-top: 1px solid black;
 	border: solid;
 	border-radius: 5px;
-	color: rgb(245, 141, 66);
+	color: rgb(40, 94, 120);
 }
 
 /* FOOTER */
