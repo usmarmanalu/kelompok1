@@ -9,13 +9,14 @@
 }
 
 /* Header */
+/* NAVBAR  */
+
 .content {
 	max-width: 1250px;
 	margin: auto;
 	padding: 0px 20px;
 }
 
-/* NAVBAR  */
 .navbar {
 	position: fixed;
 	z-index: 5;
@@ -49,11 +50,6 @@
 	font-family: "Great Vibes";
 }
 
-.navbar .logo :hover {
-	color: white;
-	font-weight: 600;
-}
-
 .menu-list li {
 	list-style: none;
 }
@@ -65,11 +61,6 @@
 	margin-left: 25px;
 	text-decoration: none;
 	transition: all 0.3s ease;
-}
-
-.menu-list li :hover {
-	color: white;
-	font-weight: 600;
 }
 
 .icon {
@@ -85,11 +76,21 @@
 	right: 30px;
 }
 
+.menu-list li :hover {
+	color: white;
+	font-weight: 600;
+}
+
+.navbar .logo :hover {
+	color: white;
+	font-weight: 600;
+}
+
 @media screen and (max-width: 900px) {
+	/* Nonaktifkan Gulir */
 	body.disabledScroll {
 		overflow: hidden;
 	}
-
 	.icon {
 		display: block;
 	}
