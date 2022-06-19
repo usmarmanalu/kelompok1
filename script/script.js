@@ -1,6 +1,6 @@
 // MEMANIPULASI DOM (Document Object Model)
 
-// Mengembalikan tiap-tiap elemen dalam dokument yang cocok dengan selector CSS
+// Mengembalikan tiap-tiap elemen YANG cocok dalam dokument HTML
 const body = document.querySelector("body");
 const navbar = document.querySelector(".navbar");
 const menuList = document.querySelector(".menu-list");

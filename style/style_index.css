@@ -28,7 +28,7 @@
 
 .navbar.sticky {
 	padding: 10px 0;
-	background: rgb(21, 85, 99);
+	background: rgb(64, 146, 168);
 }
 
 .navbar .content {
@@ -85,7 +85,7 @@
 	color: white;
 	font-weight: 600;
 }
-
+/* MEDIA QUERY -> menentukan rule hanya pada ukuran viewport tertentu */
 @media screen and (max-width: 900px) {
 	/* Nonaktifkan Gulir */
 	body.disabledScroll {
@@ -213,10 +213,6 @@ main {
 	justify-content: space-between;
 }
 
-.plan-col button:hover {
-	background-color: teal;
-}
-
 .plan-col button a {
 	color: white;
 }
@@ -224,6 +220,10 @@ main {
 .plan-col ol {
 	text-align: left;
 	font-size: x-small;
+}
+
+.plan-col button:hover {
+	background-color: teal;
 }
 
 /* Galery */
@@ -258,6 +258,7 @@ main {
 }
 
 /* Profile/aside */
+
 .profile h1 {
 	padding-top: 20px;
 }
@@ -331,6 +332,7 @@ footer p {
 	padding-bottom: 20px;
 }
 
+/* MEDIA QUERY -> menentukan rule hanya pada ukuran viewport tertentu */
 @media screen and (max-width: 1000px) {
 	#about,
 	#plan,
