@@ -200,6 +200,16 @@ hr {
 	font-size: x-large;
 }
 
+.social-media .fa-instagram:hover {
+	border: 1px solid;
+	border-radius: 10px;
+}
+
+.social-media .fa-facebook-f:hover {
+	border: 1px solid;
+	border-radius: 10px;
+}
+
 footer p {
 	text-align: center;
 	padding-bottom: 20px;
